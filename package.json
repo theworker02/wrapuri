@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/wrapuri",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wrap timestamps and uri durations for scripts and CI receipts.",
+  "bin": {
+    "wrapuri": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/wrapuri.git"
+  },
+  "homepage": "https://theworker02.github.io/wrapuri/",
+  "keywords": [
+    "wrap",
+    "uri",
+    "time",
+    "cli",
+    "toolkit"
+  ]
+}
